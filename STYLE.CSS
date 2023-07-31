@@ -1,0 +1,58 @@
+html,body{
+    background-color: antiquewhite;
+    padding: 0%;
+    margin: 0px 0px 30px 0px;
+}
+.head{
+font-size: 50px;
+align-items: center;
+text-align: center;
+}
+img{
+    vertical-align:-7px;
+}
+button.doublezero{
+padding: 10px 7px;
+}
+form{
+    border-radius: 20px;
+    margin: auto;
+    width: 25%;
+    align-items: center;
+    text-align: center  ;
+    padding: 30px;
+    border: 2px solid black ;
+    -webkit-box-shadow: 28px 38px 75px -48px rgba(0,0,0,1);
+-moz-box-shadow: 28px 38px 75px -48px rgba(0,0,0,1);
+box-shadow: 28px 38px 75px -48px rgba(0,0,0,1);
+}
+.calculator form input{
+    border: none;
+    width: 60px;
+    height: 60px;
+    border:none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: brown;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+form .display  input{
+    text-align: left;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    margin-left: 0px ;
+}
+form input.clear{
+    width: 145px;
+
+}
+form input:active{
+    margin:2px;
+}

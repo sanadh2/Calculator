@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <div><p class="head">Calculator <img src="logo.png" width="50"></p></div>
+   <div class="calculator">
+    <form>
+    <div class="display">
+    <input type="text" name="display" id="display">
+     <br>
+    </div>
+    <div>
+        <input type="button"  class="seven num" value="7" onclick="display.value+='7' ">
+        <input type="button" value=8 class="eight num" onclick="display.value+='8'">
+        <input type="button" value=9 class="nine num" onclick="display.value+='9'">
+        <input type="button" value="&#xF7;" onclick="display.value+='/'"><br>
+    </div>
+    <div>
+        <input type="button" value="4"  class="four num" onclick="display.value+='4'">
+        <input type="button" value="5" class="five num" onclick="display.value+='5'">
+        <input type="button" value="6" class="six num" onclick="display.value+='6'">
+        <input type="button" value="x" onclick="display.value+='*'"><br>
+    </div>
+    <div>
+        <input type="button" value="1" class="one num" onclick="display.value+='1'">
+        <input type="button" value="2"  class="two num" onclick="display.value+='2'">
+        <input type="button" value="3" class="three num" onclick="display.value+='3'">
+        <input type="button" value="&#8722;" onclick="display.value+='-'"><br>
+    </div>
+    <div>
+        <input type="button" value="0"  class="zero num" onclick="display.value+='0'">
+        <input type="button" value="&#183;" onclick="display.value+='.'">
+        <input type="button" value="00" class="doublezero num" onclick="display.value+='00'">
+        <input type="button" value="&#43;" onclick="display.value+='+'">
+    </div>
+    <div >
+        <input type="reset" value="clear" class="clear">
+        <input type="button" value="=" onclick="equal();">
+    </div>
+    </form>
+   </div>  
+   <script src="JS.js">
+    </script>
+</body>
+</html>
